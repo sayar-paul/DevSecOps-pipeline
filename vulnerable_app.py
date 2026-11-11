@@ -18,10 +18,7 @@ def chat():
                 json={
                     "model": "llama3",
                     "messages": [
-                        {
-                            "role": "system",
-                            "content": "You are a helpful AI assistant."
-                        },
+                       
                         {
                             "role": "user",
                             "content": prompt
