@@ -1,1 +1,3 @@
-API_KEY = "ghp_123456789012345678901234567890123456"
+import os
+
+API_KEY = os.environ.get("API_KEY")

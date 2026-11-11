@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 
 SYSTEM_PROMPT_PATTERNS = [
-    r"SYSTEM" + r"_PROMPT\s*=",
+    r"SYSTEM" + r"_PROMPT\s*=\s*['\"]",
     r"system" + r"_message\s*=",
     r'"' + "role" + r'"\s*:\s*"' + "system" + '"'
 ]
