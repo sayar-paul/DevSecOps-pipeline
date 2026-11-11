@@ -7,7 +7,6 @@ SYSTEM_PROMPT_PATTERNS = [
     r'"' + "role" + r'"\s*:\s*"' + "system" + '"'
 ]
 
-# Common prompt injection and jailbreak phrases
 INJECTION_PHRASES = [
     "ignore previous " + "instructions",
     "you are " + "now",
